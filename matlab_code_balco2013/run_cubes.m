@@ -4,7 +4,7 @@ close all hidden
 warning ('off','all')
 
 iteration=0;
-cr=generate_cosmic_rays(1000);
+cr=generate_cosmic_rays(5000);
 
 sizes=[0.1 0.2:0.2:3 3.5:0.5:10];  % m
 for side=sizes
