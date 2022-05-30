@@ -24,3 +24,4 @@ for side=sizes
     end
 end
 
+save('solution.mat','solution')
