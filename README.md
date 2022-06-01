@@ -3,7 +3,7 @@
 ## Results
 ![image](https://user-images.githubusercontent.com/53089531/171359272-fe61ee45-32af-4dac-9e88-4469d8870804.png)
 
-# Apparent side-shielding formulas
+### Apparent side-shielding formulas
 
 side shielding
 ```y=0.5+0.5*exp(-x*0.8)```
@@ -13,7 +13,7 @@ bottom shielding
 
 where ```x``` is the side of the dice in metres
 
-# Extrapolation and general furmalas
+### Extrapolation and general furmalas
 
 After repeating computing for different densities (d) and particla attenuation lengths (L):
 
