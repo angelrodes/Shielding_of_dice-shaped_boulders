@@ -7,8 +7,8 @@ scale=solution.shielding(1);
 
 % interpret sides
 sel=solution.sample>1 & solution.sample<6;
-x=solution.side(sel)/scale;
-y=solution.shielding(sel);
+x=solution.side(sel);
+y=solution.shielding(sel)/scale;
 % side formula: y=b+(1-b)*exp(-x*a)
 b=mean(y(x>6));
 a=median(log((y-b)/(1-b))./(-x));
@@ -28,8 +28,8 @@ disp(['y=' num2str(b) '+' num2str((1-b)) '*exp(-x*' num2str(a) ')'])
 
 % interpret bottom
 sel=solution.sample==6;
-x=solution.side(sel)/scale;
-y=solution.shielding(sel);
+x=solution.side(sel);
+y=solution.shielding(sel)/scale;
 % side formula: y=b+(1-b)*exp(-x*a)
 b=0;
 a=median(log((y-b)/(1-b))./(-x));
