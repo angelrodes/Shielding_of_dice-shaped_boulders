@@ -16,10 +16,10 @@ Greg Balco (2014) Simple computer code for estimating cosmic-ray shielding by od
 
 ### Apparent side-shielding formulas
 
-side shielding
+Side shielding correcton: 
 ```y=0.5+0.5*exp(-x*0.8)```
 
-bottom shielding
+Bottom shielding correcton: 
 ```y=exp(-x*1.1)```
 
 where ```x``` is the side of the dice in metres
@@ -28,10 +28,10 @@ where ```x``` is the side of the dice in metres
 
 After repeating this experiment for different densities (```d```) and particle attenuation lengths (```L```):
 
-side shielding
+Side shielding correcton: 
 ```y=0.5+0.5*exp(-z*d/(2*L*0.8))```
 
-bottom shielding
+Bottom shielding correcton: 
 ```y=exp(-z*d/(L*1.16))```
 
 where ```z``` is the side of the dice in cm
@@ -90,3 +90,9 @@ y=0.5+0.5*exp(-z*2.65/(2*160*0.80173))
 y=0+1*exp(-x*1.4093)
 y=0+1*exp(-z*2.65/(160*1.1752))
 --->
+
+---
+
+Ángel Rodés, 2022
+
+[www.angelrodes.com](www.angelrodes.com)
