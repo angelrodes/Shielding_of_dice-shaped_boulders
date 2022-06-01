@@ -15,7 +15,7 @@ where ```x``` is the side of the dice in metres
 
 ### Extrapolation and general furmalas
 
-After repeating computing for different densities (d) and particla attenuation lengths (L):
+After repeating this experiment for different densities (d) and particle attenuation lengths (L):
 
 side shielding
 ```y=0.5+0.5*exp(-z*d/(2*L*0.8))```
