@@ -13,7 +13,7 @@ bottom shielding
 
 where ```x``` is the side of the dice in metres
 
-### Extrapolation and general formalas
+### Extrapolation and general formulas
 
 After repeating this experiment for different densities (```d```) and particle attenuation lengths (```L```):
 
