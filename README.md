@@ -1,13 +1,23 @@
 # cube_generator
 
 ## Results
-![image](https://user-images.githubusercontent.com/53089531/171348006-a6c07ec0-fc44-43ce-9cf7-15dfe29c9dae.png)
+![image](https://user-images.githubusercontent.com/53089531/171359272-fe61ee45-32af-4dac-9e88-4469d8870804.png)
 
 
 side shielding
-```y=0.50063+0.49937*exp(-x*0.79984)```
+```y=0.5+0.5*exp(-x*0.79969)```
 
 bottom shielding
-```y=exp(-x*1.0633)```
+```y=exp(-x*1.0828)```
 
 where ```x``` is the side of the dice in metres
+
+<!---
+More results
+y=0.5+0.5*exp(-x*0.79969)
+y=0.5+0.5*exp(-z*2.65/(2*208*0.79658))
+y=0+1*exp(-x*1.0828)
+y=0+1*exp(-z*2.65/(208*1.1766))
+
+
+--->
