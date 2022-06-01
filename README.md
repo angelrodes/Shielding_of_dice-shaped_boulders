@@ -1,4 +1,15 @@
-# cube_generator
+# Cosmogenic shielding corrections at the sides of dice-shaped boulders
+
+```get_cube_shielding.m``` is a script that:
+- generates 3D polygons in the shape of cubes of different sizes,
+- generates coordinates for samples at the center of each side of the cube,
+- use Balco's code (```generate_cosmic_rays.m```) to calculate the shielding correction for each sample
+- calculate the approximations that describe the shielding correction vs. the size of the cube.
+
+All the scripts that simulate the cosmic radiation in the samples are extracted from the supplementary material of the following publication:
+
+Greg Balco (2014) Simple computer code for estimating cosmic-ray shielding by oddly shaped objects. [Quaternary Geochronology, Volume 22, Pages 175-182.](https://doi.org/10.1016/j.quageo.2013.12.002)
+
 
 ## Results
 ![image](https://user-images.githubusercontent.com/53089531/171359272-fe61ee45-32af-4dac-9e88-4469d8870804.png)
