@@ -95,4 +95,4 @@ y=0+1*exp(-z*2.65/(160*1.1752))
 
 Ángel Rodés, 2022
 
-[www.angelrodes.com](www.angelrodes.com)
+[angelrodes.com](www.angelrodes.com)
