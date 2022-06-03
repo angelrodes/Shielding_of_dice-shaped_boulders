@@ -1,10 +1,10 @@
 # Cosmogenic shielding corrections at the sides of dice-shaped boulders
 
 ```get_cube_shielding.m``` is a script that:
-- generates 3D polygons in the shape of cubes of different sizes,
-- generates coordinates for samples at the center of each side of the cube,
-- use Balco's code (```generate_cosmic_rays.m```) to calculate the shielding correction for each sample
-- calculate the approximations that describe the shielding correction vs. the size of the cube.
+1. generates 3D polygons in the shape of cubes of different sizes,
+2. generates coordinates for samples at the center of each side of the cube,
+3. uses Balco's code (```generate_cosmic_rays.m```) to calculate the shielding correction for each sample
+4. calculates the approximations that describe the shielding correction vs. the size of the cube.
 
 All the scripts that simulate the cosmic radiation in the samples are extracted from the supplementary material of the following publication:
 
